@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE57CBC2E1518ED0064EE3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE57CBB2E1518ED0064EE3D /* AppDelegate.swift */; };
+		FAE57CBE2E1518ED0064EE3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE57CBD2E1518ED0064EE3D /* SceneDelegate.swift */; };
+		FAE57CC02E1518ED0064EE3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE57CBF2E1518ED0064EE3D /* ViewController.swift */; };
+		FAE57CC32E1518ED0064EE3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE57CC12E1518ED0064EE3D /* Main.storyboard */; };
+		FAE57CC52E1519010064EE3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE57CC42E1519010064EE3D /* Assets.xcassets */; };
+		FAE57CC82E1519010064EE3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE57CC62E1519010064EE3D /* LaunchScreen.storyboard */; };
+		FAE57CD32E1519020064EE3D /* PoliceSirenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE57CD22E1519020064EE3D /* PoliceSirenTests.swift */; };
+		FAE57CDD2E1519020064EE3D /* PoliceSirenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE57CDC2E1519020064EE3D /* PoliceSirenUITests.swift */; };
+		FAE57CDF2E1519020064EE3D /* PoliceSirenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE57CDE2E1519020064EE3D /* PoliceSirenUITestsLaunchTests.swift */; };
+		FAE57CEE2E1526770064EE3D /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAE57CED2E1526770064EE3D /* sound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE57CCF2E1519020064EE3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE57CB02E1518ED0064EE3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE57CB72E1518ED0064EE3D;
+			remoteInfo = PoliceSiren;
+		};
+		FAE57CD92E1519020064EE3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE57CB02E1518ED0064EE3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE57CB72E1518ED0064EE3D;
+			remoteInfo = PoliceSiren;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAE57CB82E1518ED0064EE3D /* PoliceSiren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoliceSiren.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE57CBB2E1518ED0064EE3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAE57CBD2E1518ED0064EE3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAE57CBF2E1518ED0064EE3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAE57CC22E1518ED0064EE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAE57CC42E1519010064EE3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE57CC72E1519010064EE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAE57CC92E1519010064EE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE57CCE2E1519020064EE3D /* PoliceSirenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoliceSirenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE57CD22E1519020064EE3D /* PoliceSirenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceSirenTests.swift; sourceTree = "<group>"; };
+		FAE57CD82E1519020064EE3D /* PoliceSirenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoliceSirenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE57CDC2E1519020064EE3D /* PoliceSirenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceSirenUITests.swift; sourceTree = "<group>"; };
+		FAE57CDE2E1519020064EE3D /* PoliceSirenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceSirenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAE57CED2E1526770064EE3D /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE57CB52E1518ED0064EE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE57CCB2E1519020064EE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE57CD52E1519020064EE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE57CAF2E1518ED0064EE3D = {
+			isa = PBXGroup;
+			children = (
+				FAE57CBA2E1518ED0064EE3D /* PoliceSiren */,
+				FAE57CD12E1519020064EE3D /* PoliceSirenTests */,
+				FAE57CDB2E1519020064EE3D /* PoliceSirenUITests */,
+				FAE57CB92E1518ED0064EE3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE57CB92E1518ED0064EE3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE57CB82E1518ED0064EE3D /* PoliceSiren.app */,
+				FAE57CCE2E1519020064EE3D /* PoliceSirenTests.xctest */,
+				FAE57CD82E1519020064EE3D /* PoliceSirenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE57CBA2E1518ED0064EE3D /* PoliceSiren */ = {
+			isa = PBXGroup;
+			children = (
+				FAE57CBB2E1518ED0064EE3D /* AppDelegate.swift */,
+				FAE57CBD2E1518ED0064EE3D /* SceneDelegate.swift */,
+				FAE57CBF2E1518ED0064EE3D /* ViewController.swift */,
+				FAE57CED2E1526770064EE3D /* sound.mp3 */,
+				FAE57CC12E1518ED0064EE3D /* Main.storyboard */,
+				FAE57CC42E1519010064EE3D /* Assets.xcassets */,
+				FAE57CC62E1519010064EE3D /* LaunchScreen.storyboard */,
+				FAE57CC92E1519010064EE3D /* Info.plist */,
+			);
+			path = PoliceSiren;
+			sourceTree = "<group>";
+		};
+		FAE57CD12E1519020064EE3D /* PoliceSirenTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE57CD22E1519020064EE3D /* PoliceSirenTests.swift */,
+			);
+			path = PoliceSirenTests;
+			sourceTree = "<group>";
+		};
+		FAE57CDB2E1519020064EE3D /* PoliceSirenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE57CDC2E1519020064EE3D /* PoliceSirenUITests.swift */,
+				FAE57CDE2E1519020064EE3D /* PoliceSirenUITestsLaunchTests.swift */,
+			);
+			path = PoliceSirenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE57CB72E1518ED0064EE3D /* PoliceSiren */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE57CE22E1519020064EE3D /* Build configuration list for PBXNativeTarget "PoliceSiren" */;
+			buildPhases = (
+				FAE57CB42E1518ED0064EE3D /* Sources */,
+				FAE57CB52E1518ED0064EE3D /* Frameworks */,
+				FAE57CB62E1518ED0064EE3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoliceSiren;
+			productName = PoliceSiren;
+			productReference = FAE57CB82E1518ED0064EE3D /* PoliceSiren.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE57CCD2E1519020064EE3D /* PoliceSirenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE57CE52E1519020064EE3D /* Build configuration list for PBXNativeTarget "PoliceSirenTests" */;
+			buildPhases = (
+				FAE57CCA2E1519020064EE3D /* Sources */,
+				FAE57CCB2E1519020064EE3D /* Frameworks */,
+				FAE57CCC2E1519020064EE3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE57CD02E1519020064EE3D /* PBXTargetDependency */,
+			);
+			name = PoliceSirenTests;
+			productName = PoliceSirenTests;
+			productReference = FAE57CCE2E1519020064EE3D /* PoliceSirenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAE57CD72E1519020064EE3D /* PoliceSirenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE57CE82E1519020064EE3D /* Build configuration list for PBXNativeTarget "PoliceSirenUITests" */;
+			buildPhases = (
+				FAE57CD42E1519020064EE3D /* Sources */,
+				FAE57CD52E1519020064EE3D /* Frameworks */,
+				FAE57CD62E1519020064EE3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE57CDA2E1519020064EE3D /* PBXTargetDependency */,
+			);
+			name = PoliceSirenUITests;
+			productName = PoliceSirenUITests;
+			productReference = FAE57CD82E1519020064EE3D /* PoliceSirenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE57CB02E1518ED0064EE3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FAE57CB72E1518ED0064EE3D = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					FAE57CCD2E1519020064EE3D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FAE57CB72E1518ED0064EE3D;
+					};
+					FAE57CD72E1519020064EE3D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FAE57CB72E1518ED0064EE3D;
+					};
+				};
+			};
+			buildConfigurationList = FAE57CB32E1518ED0064EE3D /* Build configuration list for PBXProject "PoliceSiren" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE57CAF2E1518ED0064EE3D;
+			productRefGroup = FAE57CB92E1518ED0064EE3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE57CB72E1518ED0064EE3D /* PoliceSiren */,
+				FAE57CCD2E1519020064EE3D /* PoliceSirenTests */,
+				FAE57CD72E1519020064EE3D /* PoliceSirenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE57CB62E1518ED0064EE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE57CC82E1519010064EE3D /* LaunchScreen.storyboard in Resources */,
+				FAE57CC52E1519010064EE3D /* Assets.xcassets in Resources */,
+				FAE57CC32E1518ED0064EE3D /* Main.storyboard in Resources */,
+				FAE57CEE2E1526770064EE3D /* sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE57CCC2E1519020064EE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE57CD62E1519020064EE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE57CB42E1518ED0064EE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE57CC02E1518ED0064EE3D /* ViewController.swift in Sources */,
+				FAE57CBC2E1518ED0064EE3D /* AppDelegate.swift in Sources */,
+				FAE57CBE2E1518ED0064EE3D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE57CCA2E1519020064EE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE57CD32E1519020064EE3D /* PoliceSirenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE57CD42E1519020064EE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE57CDF2E1519020064EE3D /* PoliceSirenUITestsLaunchTests.swift in Sources */,
+				FAE57CDD2E1519020064EE3D /* PoliceSirenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE57CD02E1519020064EE3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE57CB72E1518ED0064EE3D /* PoliceSiren */;
+			targetProxy = FAE57CCF2E1519020064EE3D /* PBXContainerItemProxy */;
+		};
+		FAE57CDA2E1519020064EE3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE57CB72E1518ED0064EE3D /* PoliceSiren */;
+			targetProxy = FAE57CD92E1519020064EE3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE57CC12E1518ED0064EE3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE57CC22E1518ED0064EE3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE57CC62E1519010064EE3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE57CC72E1519010064EE3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE57CE02E1519020064EE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAE57CE12E1519020064EE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE57CE32E1519020064EE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2Q93FH5G2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PoliceSiren/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PoliceSiren;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sound.policesiren.PoliceSiren;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE57CE42E1519020064EE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2Q93FH5G2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PoliceSiren/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PoliceSiren;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sound.policesiren.PoliceSiren;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAE57CE62E1519020064EE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2Q93FH5G2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sound.policesiren.PoliceSirenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoliceSiren.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PoliceSiren";
+			};
+			name = Debug;
+		};
+		FAE57CE72E1519020064EE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2Q93FH5G2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sound.policesiren.PoliceSirenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoliceSiren.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PoliceSiren";
+			};
+			name = Release;
+		};
+		FAE57CE92E1519020064EE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2Q93FH5G2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sound.policesiren.PoliceSirenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PoliceSiren;
+			};
+			name = Debug;
+		};
+		FAE57CEA2E1519020064EE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2Q93FH5G2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sound.policesiren.PoliceSirenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PoliceSiren;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE57CB32E1518ED0064EE3D /* Build configuration list for PBXProject "PoliceSiren" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE57CE02E1519020064EE3D /* Debug */,
+				FAE57CE12E1519020064EE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE57CE22E1519020064EE3D /* Build configuration list for PBXNativeTarget "PoliceSiren" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE57CE32E1519020064EE3D /* Debug */,
+				FAE57CE42E1519020064EE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE57CE52E1519020064EE3D /* Build configuration list for PBXNativeTarget "PoliceSirenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE57CE62E1519020064EE3D /* Debug */,
+				FAE57CE72E1519020064EE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE57CE82E1519020064EE3D /* Build configuration list for PBXNativeTarget "PoliceSirenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE57CE92E1519020064EE3D /* Debug */,
+				FAE57CEA2E1519020064EE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE57CB02E1518ED0064EE3D /* Project object */;
+}
